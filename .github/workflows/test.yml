@@ -1,4 +1,4 @@
-name: "Proof-of-concept GitHub Actions workflow"
+name: "Proof-of-co<img>ncept GitHub Actions workflow"
 
 on: [pull_request]
 
