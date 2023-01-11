@@ -1,6 +1,6 @@
 name: "Proof-of-co<img>ncept GitHub Actions workflow"
 
-on: [pull_request]
+on: [push]
 
 jobs:
   vandalize-repo:
